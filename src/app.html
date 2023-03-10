@@ -1,18 +1,10 @@
 <!DOCTYPE html>
 
-<script>
-    // import "carbon-components-svelte/css/all.css";
-    // let theme = "g80"; // "white" | "g10" | "g80" | "g90" | "g100"
-    // $: document.documentElement.setAttribute("theme", theme);
-
-        import {
-        Theme,
-        RadioButtonGroup,
-        RadioButton,
-    } from "carbon-components-svelte";
-
-
-</script>
+<style lang="postcss">
+    :global(html) {
+        background-color: theme(colors.green.100);
+    }
+</style>
 
 <html lang="en" theme="{theme}">
 <head>
